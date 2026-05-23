@@ -1,1 +1,4 @@
 esse aqui só tem nessa branch. eu dei pull request sem querer no atividade1 kkkkkkk
+
+adicionando esses detalhes direto na main local pra tentar jogar na main do servidor. vamos que vamos
+
