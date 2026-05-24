@@ -9,8 +9,8 @@ topicos.forEach( topico => {
 	        <h4 class="m-0">${topico}</h4>
 	      </div>
 
-	      <div class="p-3">
-	        <button class="btn btn-dark w-100">
+	      <div class="p-3 rounded-bottom p-4 card-baixo">
+	        <button class="btn btn-light w-100 fw-semibold">
 	          Abrir módulo
 	        </button>
 	      </div>

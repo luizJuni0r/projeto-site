@@ -14,6 +14,11 @@
 }
 
 .card-topo {
-  background: #f59e0b;
-  color: #111827;
+  background: #374151;
+  color: white;
+}
+
+.card-baixo {
+  background: #1f2937;
+  color: white;
 }
