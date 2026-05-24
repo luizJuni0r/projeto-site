@@ -1,0 +1,24 @@
+.site-body {
+  background: #111827;
+}
+
+.site-header,
+.site-footer {
+  background: #1f2937;
+  color: white;
+}
+
+.site-main {
+  background: #111827;
+  color: white;
+}
+
+.card-topo {
+  background: #374151;
+  color: white;
+}
+
+.card-baixo {
+  background: #1f2937;
+  color: white;
+}
