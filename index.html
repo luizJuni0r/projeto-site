@@ -5,60 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <title>teste bootstrap</title>
+    <title>Canto do Jr.</title>
 </head>
-<body class="bg-dark min-vh-100 d-flex flex-column">
+<body class="min-vh-100 d-flex flex-column site-body">
 
 <!--################################################################################################################################################################### -->
 
-  <header class="container-fluid bg-info">
+  <header class="container-fluid site-header">
     <div class="row">
-        <div class="col-12">
-            <h1>header</h1>
+        <div class="col-12 p-2 ps-2">
+            <h1>Teoria Musical</h1>
         </div>
     </div>
   </header>
 
 <!--################################################################################################################################################################### -->
 
-  <main class="container bg-white pb-3 flex-grow-1">
+  <main class="container site-main pb-3 flex-grow-1">
     <div class="row">
-        <div class="col-12">
-            <h3 class="text-dark">Tópicos</h3>
-            <p class="text-dark">Navegue e escolha um topico!</p>
+        <div class="col-12 pt-2">
+            <h3>Tópicos</h3>
+            <p>Navegue e escolha um topico!</p>
         </div>
     </div>
-    <div class="row g-3">
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="card p-3 shadow-sm h-100">
-              Harmonia I
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="card p-3 shadow-sm h-100">
-              Harmonia II
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="card p-3 shadow-sm h-100">
-              Solfejo
-            </div>
-        </div>
+    <div id="conteudos" class="row g-4">
     </div>
   </main>
 
 <!--################################################################################################################################################################### -->
   
-  <footer class="container-fluid bg-info">
+  <footer class="container-fluid site-footer">
     <div class="row">
-        <div class="col-12">
-            <h1>footer</h1>
+        <div class="col-12 p-3 ps-2 d-flex flex-column justify-content-center align-items-center">
+            <p>Tudo de graça, aproveita.</p>
         </div>
     </div>
   </footer>
 
 <!--################################################################################################################################################################### -->
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="app.js"></script>
 </body>
 </html>
